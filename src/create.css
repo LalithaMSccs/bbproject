@@ -1,0 +1,151 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: rgb(212, 177, 154);
+    background-image: url("bank_7.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position-y: top;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: rgb(30, 60, 70);
+    border: 1px solid #e1b382;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background:   rgb(212, 177, 154);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    width: 700px;
+    background-color: darkgray;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #2d545e;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    color: #2d545e;
+  }
+#balance{
+  width: 700px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0px;
+  background-color: rgb(30, 60, 70);
+  color: white;
+}
+.table,.head{
+  border: 1px solid black;
+  color: #2d545e;
+  border-style:hidden;
+}
+.user{
+  color: #2d545e;
+}
+#logout{
+  margin-left: 40px;
+}
+#success{
+  background-image: linear-gradient(180deg,rgb(208, 225, 208),rgb(174, 193, 174),rgb(177, 238, 177));
+  text-align: center;
+  color:#735DA5;
+  font-weight: bold;
+}
+.users,.heads{
+  color: #735DA5 ;
+}
+#welcome{
+  text-align: center;
+  font-size: 40px;
+  color:#735DA5;
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+@keyframes example {
+  0%   {color:#cd2f51; left:0px; top:0px; font-size: 30px;}
+  25%  {color:#489333; left:200px; top:0px;font-stretch: expanded;}
+  50%  {color:#4593dd; left:200px; top:200px;}
+  75%  {color:#FA6775; left:0px; top:200px;}
+  100% {color:#0b3a7f; left:0px; top:0px;}
+}
+.setbody{
+  margin-top: 300px;
+  background-color: #e1b382;
+}
+#wel{
+  text-align: center;
+  font-size: 50px;
+  color:#735DA5;
+  margin-top:75px;
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+.app1{
+  background-image: url("bank_7.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position-y: top;
+}
+  
+.login-form1 {
+  width: 100vw;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position-y: top;
+
+
+}

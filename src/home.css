@@ -1,0 +1,29 @@
+#body{
+    /* width: 100vw;
+    height: 100vh; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.bname{
+   color: wheat;
+   font-family: URW Chancery L, cursive;
+   font-size:25px;
+}
+#container {
+    background-image: url("bank.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position-y: top;
+}
+@media (max-width: 768px) {
+    #container {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    }
