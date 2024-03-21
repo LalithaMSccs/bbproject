@@ -10,7 +10,7 @@ function User_data(){
     function displayDetails(user){
         return(
             
-            <tr>
+            <tr key={user.email}>
                 <div>
                     <p><b>Role:</b>{user.role}</p>
                 </div>
