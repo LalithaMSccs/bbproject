@@ -7,10 +7,10 @@ function User_data(){
     let ctx = useContext(Usercontext);
     const [showDetails, setShowDetails] = useState(null);
 
-    useEffect(() => {
-        // Reset showDetails when user context changes
-        setShowDetails(null);
-    }, [ctx]);
+    // useEffect(() => {
+    //     // Reset showDetails when user context changes
+    //     setShowDetails(null);
+    // }, [ctx]);
 
     function displayDetails(user) {
         return(    
@@ -36,7 +36,7 @@ function User_data(){
          <div className="app">
             <div className="login-form">
                 <h3 className="user">Users Data</h3>
-                <table className="table">   
+                 <table className="table">   
                 <tr>
                     <th className="head">Name</th>
                     <th className="head">balance</th>
