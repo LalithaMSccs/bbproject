@@ -14,7 +14,7 @@ function User_data(){
 
     function displayDetails(user) {
         return(    
-            <tr className="head">
+            <tr className="head" key={user.email}>
                 <td colSpan="3">
                     <div>
                         <p><b>Role:</b> {user.role}</p>
@@ -60,7 +60,7 @@ function User_data(){
                         <button onClick={() => setShowDetails(null)}>Back</button>
                         {ctx.currentUser.map(item => (
                             item.role === 'Admin' || (item.email === showDetails.email && item.role !== "Admin") ? (
-                                <p>{displayDetails(showDetails)}</p>
+                                <p key={showDetails.email}>{displayDetails(showDetails)}</p>
                             ) : null
                         ))}
                     </div>
